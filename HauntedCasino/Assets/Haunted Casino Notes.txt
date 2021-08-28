@@ -1,0 +1,57 @@
+
+	Standard Slots
+-Deal with the ghosts in the machine playing slots
+-The games in between spin session give you more chances/cash or change the machine
+-The cash and credits you get can be used in some of the games
+*Maybe ancient rune symbols to match
+
+	Cerberus Cards [Three of a Kind]
+-Choosing the right card arrangement and judging the Cerb's fire
+-Cerb will breath fire in up to three lines burning cards
+-Cards flip to show face up, then flip back, arrange how you like before fire
+-
+three rows, 4-5 columns(which ever looks better), flips face up,
+moves horizontal
+
+	Skeleton Bones(dice)
+-Skully's running a racket with the dice
+http://www.sterlingkisses.com/art/skull_dice.html
+
+	Madusa's Cocktail
+-Mix the right poisons to Dusa's tastes
+
+	Lagoon Shells
+-Standard shell game
+
+	Zombie Jack
+-black jack 21
+
+	Spider Wheel
+-Roulette
+
+	Pumpkin Head's Candy trove
+-Match three until clear the board
+
+
+
+*******************************************
+
+Audio Helper three value dictionary; https://stackoverflow.com/questions/569903/multi-value-dictionary
+public AudioClip[] listOfSounds;
+ClipWithVolume{AudioClip clip;float volume;}
+Dictionary<String, ClipWithVolume> sounds;
+//manually load sounds into array with inspector, then load into dictionary
+//public function playClip(string name) adjusts volume then plays one shot
+//does this work? or does volume changing cuase problems
+//could work if not every sound is through helper, just smaller one shot sounds
+/* This can only work automatically if we name the sounds with their volumes as well
+such as "cachunk|0.75" or "ding|0.125" */
+
+
+Have an auto-stop option for player to set if they want
+
+
+If something goes wrong and panel reader does not come back with three panels,
+	blame it on the ghosts and give a free spin
+
+Make sure to change color or just highlight lever when ready to pull
